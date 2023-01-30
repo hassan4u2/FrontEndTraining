@@ -1,0 +1,162 @@
+.resume {
+    width: 100%;
+    padding: 3% 0;
+  }
+  
+.resume .resume_body {
+
+    
+}
+
+.resume .resume_body .quls {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 3%;    
+}
+.resume .resume_body .quls .edu-cards,
+.resume .resume_body .quls .exp-cards {
+    width: 90%;
+    display: flex;
+    flex-flow: wrap column;
+    
+}
+
+.resume .resume_body .quls .edu-cards .card ,
+.resume .resume_body .quls .exp-cards .card {
+    margin-top: 20px;
+    padding: 15px;  
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+    border: .25px solid rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.resume .resume_body .quls .edu-cards .card h2 ,
+.resume .resume_body .quls .exp-cards .card h2{
+    margin-top: 20px;
+
+}
+
+.resume .resume_body .quls .edu-cards .card .edu-std-years,
+.resume .resume_body .quls .exp-cards .card .edu-std-years{
+    background-color: #20c997;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+}
+
+.resume .resume_body .quls .edu-cards .card .edu-cert ,
+.resume .resume_body .quls .exp-cards .card .edu-cert {
+    font-size: 19px;
+    padding: 5px 0;
+}
+.resume .resume_body .quls .edu-cards .card .edu-uni,
+.resume .resume_body .quls .exp-cards .card .edu-uni {
+    color: #dc3545!important;
+    padding: 5px 0;
+}
+.resume .resume_body .quls .edu-cards .card .edu-decs ,
+.resume .resume_body .quls .exp-cards .card .edu-decs {
+
+}
+.resume .resume_body .quls .edu-cards .card .edu-decs span,
+.resume .resume_body .quls .exp-cards .card .edu-decs span{
+    font-size: 15px;
+}
+
+.resume .resume_body .resume-skills {
+    padding: 3% 0;
+
+}
+.resume .resume_body .resume-skills h2 {
+    padding: 10px;
+
+}
+.resume .resume_body .resume-skills .skills-items {
+   display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+
+}
+.resume .resume_body .resume-skills .skills-items .item {
+width: 50%;
+display: flex;
+flex-flow: wrap column;
+justify-content: space-between;
+}
+
+.resume .resume_body .resume-skills .skills-items .item .common {
+    width: 100%;
+    font-weight: 600;
+    padding: 10px;
+    
+}
+.resume .resume_body .resume-skills .skills-items .item .common .item-desk {
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+
+}
+.resume .resume_body .resume-skills .skills-items .item .common .item-desk span {
+    font-size: 15px;
+}
+
+.resume .resume_body .resume-skills .skills-items .item .common .item-bar {
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.resume .resume_body .resume-skills .skills-items .item .common .item-bar .inner {
+    width: 90%;
+    height: 5px;
+    background-color: #20c997;
+}
+.resume .resume_body .resume-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 3% 0;
+}
+
+#resume-btn {
+    background-color: #898989;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+#resume-btn:hover {
+    background-color: #fff;
+    color: #898989;
+    border: 2px solid #898989;
+    transition: .5s;
+
+
+}
+
+
+#webdesign {width: 65%;}
+#javascript {width: 80%;}
+#reactjs {width: 70%;}
+#angularjs {width: 90%;}
+#bootstrap {width: 99%;}
+#htmlcss {width: 95%;}

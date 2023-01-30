@@ -1,0 +1,406 @@
+#d-home .d-home-content p::after {
+  content: "|";
+  animation-name: words;
+  color: white;
+  animation-duration: 13s;
+  font-size: 2rem;
+  animation-iteration-count: infinite;
+}
+/* keyframes for words */
+@keyframes words {
+  /* 
+    CEO DevFolio 
+    Graphic Designer 
+    FrontEnd Developer 
+    Web Developer 
+    Web Designer
+    */
+  000.078% {
+    content: "C";
+  }
+  000.156% {
+    content: "CE";
+  }
+  000.234% {
+    content: "CEO";
+  }
+  000.312% {
+    content: "CEO ";
+  }
+  000.390% {
+    content: "CEO D";
+  }
+  000.468% {
+    content: "CEO De";
+  }
+  000.546% {
+    content: "CEO Dev";
+  }
+  000.624% {
+    content: "CEO DevF";
+  }
+  000.702% {
+    content: "CEO DevF";
+  }
+  000.780% {
+    content: "CEO DevFo";
+  }
+  000.858% {
+    content: "CEO DevFol";
+  }
+  000.936% {
+    content: "CEO DevFoli";
+  }
+  010.14% {
+    content: "CEO DevFolio";
+  }
+  010.92% {
+    content: "CEO DevFolio";
+  }
+  011.70% {
+    content: "CEO DevFoli";
+  }
+  012.48% {
+    content: "CEO DevFol";
+  }
+  013.26% {
+    content: "CEO DevFo";
+  }
+  014.04% {
+    content: "CEO DevF";
+  }
+  014.82% {
+    content: "CEO Dev";
+  }
+  015.60% {
+    content: "CEO De";
+  }
+  016.38% {
+    content: "CEO D";
+  }
+  017.16% {
+    content: "CEO ";
+  }
+  017.94% {
+    content: "CEO";
+  }
+  018.72% {
+    content: "CE";
+  }
+  019.50% {
+    content: "C";
+  }
+  020.28% {
+    content: "";
+  }
+  021.06% {
+    content: "G";
+  }
+  021.84% {
+    content: "Gr";
+  }
+  022.62% {
+    content: "Gra";
+  }
+  023.40% {
+    content: "Grap";
+  }
+  024.18% {
+    content: "Graph";
+  }
+  024.96% {
+    content: "Graphi";
+  }
+  025.74% {
+    content: "Graphic";
+  }
+  026.52% {
+    content: "Graphic ";
+  }
+  027.30% {
+    content: "Graphic D";
+  }
+  028.08% {
+    content: "Graphic De";
+  }
+  028.86% {
+    content: "Graphic Des";
+  }
+  029.64% {
+    content: "Graphic Desi";
+  }
+  030.42% {
+    content: "Graphic Desig";
+  }
+  031.20% {
+    content: "Graphic Design";
+  }
+  031.98% {
+    content: "Graphic Design";
+  }
+  032.76% {
+    content: "Graphic Desig";
+  }
+  033.54% {
+    content: "Graphic Desi";
+  }
+  034.32% {
+    content: "Graphic Des";
+  }
+  035.10% {
+    content: "Graphic De";
+  }
+  035.88% {
+    content: "Graphic D";
+  }
+  036.66% {
+    content: "Graphic ";
+  }
+  037.44% {
+    content: "Graphic";
+  }
+  038.22% {
+    content: "Graphi";
+  }
+  039.00% {
+    content: "Graph";
+  }
+  039.78% {
+    content: "Grap";
+  }
+  040.56% {
+    content: "Gra";
+  }
+  041.34% {
+    content: "Gr";
+  }
+  042.12% {
+    content: "G";
+  }
+  042.90% {
+    content: "";
+  }
+  043.68% {
+    content: "F";
+  }
+  044.46% {
+    content: "Fr";
+  }
+  045.24% {
+    content: "Fro";
+  }
+  046.02% {
+    content: "Fron";
+  }
+  046.80% {
+    content: "Front";
+  }
+  047.58% {
+    content: "FrontE";
+  }
+  048.36% {
+    content: "FrontEn";
+  }
+  049.14% {
+    content: "FrontEnd";
+  }
+  049.92% {
+    content: "FrontEnd ";
+  }
+  050.70% {
+    content: "FrontEnd D";
+  }
+  051.48% {
+    content: "FrontEnd De";
+  }
+  052.26% {
+    content: "FrontEnd Dev";
+  }
+  053.04% {
+    content: "FrontEnd Deve";
+  }
+  053.82% {
+    content: "FrontEnd Devel";
+  }
+  054.60% {
+    content: "FrontEnd Develo";
+  }
+  055.38% {
+    content: "FrontEnd Develop";
+  }
+  056.16% {
+    content: "FrontEnd Develop";
+  }
+  056.94% {
+    content: "FrontEnd Develo";
+  }
+  057.72% {
+    content: "FrontEnd Devel";
+  }
+  058.50% {
+    content: "FrontEnd Deve";
+  }
+  059.28% {
+    content: "FrontEnd Dev";
+  }
+  060.06% {
+    content: "FrontEnd De";
+  }
+  060.84% {
+    content: "FrontEnd D";
+  }
+  061.62% {
+    content: "FrontEnd ";
+  }
+  062.40% {
+    content: "FrontEnd";
+  }
+  063.18% {
+    content: "FrontEn";
+  }
+  063.96% {
+    content: "FrontE";
+  }
+  064.74% {
+    content: "Front";
+  }
+  065.52% {
+    content: "Fron";
+  }
+  066.30% {
+    content: "Fro";
+  }
+  067.08% {
+    content: "Fr";
+  }
+  067.86% {
+    content: "F";
+  }
+  068.64% {
+    content: "";
+  }
+  069.42% {
+    content: "W";
+  }
+  070.20% {
+    content: "We";
+  }
+  070.98% {
+    content: "Web";
+  }
+  071.76% {
+    content: "Web ";
+  }
+  072.54% {
+    content: "Web D";
+  }
+  073.32% {
+    content: "Web De";
+  }
+  074.10% {
+    content: "Web Dev";
+  }
+  074.88% {
+    content: "Web Deve";
+  }
+  075.66% {
+    content: "Web Devel";
+  }
+  076.44% {
+    content: "Web Develo";
+  }
+  077.22% {
+    content: "Web Develop";
+  }
+  078.00% {
+    content: "Web Develope";
+  }
+  078.78% {
+    content: "Web Developer";
+  }
+  079.56% {
+    content: "Web Develope";
+  }
+  080.34% {
+    content: "Web Develop";
+  }
+  081.12% {
+    content: "Web Develo";
+  }
+  081.90% {
+    content: "Web Devel";
+  }
+  082.68% {
+    content: "Web Deve";
+  }
+  083.46% {
+    content: "Web Dev";
+  }
+  084.24% {
+    content: "Web De";
+  }
+  085.02% {
+    content: "Web Des";
+  }
+  085.80% {
+    content: "Web Desi";
+  }
+  086.58% {
+    content: "Web Desig";
+  }
+  087.36% {
+    content: "Web Design";
+  }
+  088.14% {
+    content: "Web Designe";
+  }
+  088.92% {
+    content: "Web Designer";
+  }
+  089.70% {
+    content: "Web Designe";
+  }
+  090.48% {
+    content: "Web Desig";
+  }
+  091.26% {
+    content: "Web Desi";
+  }
+  092.04% {
+    content: "Web Des";
+  }
+  092.82% {
+    content: "Web De";
+  }
+  093.60% {
+    content: "Web D";
+  }
+  094.38% {
+    content: "Web ";
+  }
+  095.16% {
+    content: "Web";
+  }
+  095.94% {
+    content: "We";
+  }
+  096.72% {
+    content: "W";
+  }
+  097.50% {
+    content: "";
+  }
+  098.28% {
+    content: "D";
+  }
+  099.06% {
+    content: "Do";
+  }
+  099.84% {
+    content: "Don";
+  }
+  100.00% {
+    content: "Done";
+  }
+}
+/* end Keyframes */

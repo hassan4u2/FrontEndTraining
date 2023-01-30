@@ -1,0 +1,145 @@
+
+
+
+
+
+
+.client .client_body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.client .client_body .slider {
+    width: 100%;
+}
+.client .slider .controls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 25px;
+
+    
+}
+
+.client .client_body .slider .slides {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-flow: row wrap;
+}
+.client .client_body .slider .slides .overflow{
+    width: 100%;
+}
+
+.client .client_body .slider .slides .overflow .inner{
+    width: 100%;
+}
+.client .client_body .slider .slides .overflow .inner .slide1:nth-child(2) {
+    display: none;
+}
+
+.client .slider .controls input[type="radio"] {
+    margin: 10px;
+}
+
+
+
+.client .client_body .slider .slides .overflow .inner .slide1 {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    padding: 3%;
+
+}
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard {
+    background: #f8f9fa!important;
+    border-radius: 3px;
+    width: 48%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 3%;
+
+    
+}
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-head {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+}
+
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-head .sl-img{
+    width: 10%;
+}
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-head .sl-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-head .sl-name {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-head .sl-name span {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-head .sl-name p {
+    font-size: 12px;
+    font-weight: 200;
+    color: #898989;
+}
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-body {
+    padding-top: 20px;
+
+}
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-body span {
+    font-size: 12px;
+
+}
+
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-body .rating {
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-body .rating ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-body .rating ul li{
+    padding: 3px;
+}
+
+.client .client_body .slider .slides .overflow .inner .slide1 .slidecard .sl-body .rating ul li i {
+    font-size: 15px;
+    color: #f1c40f;
+}
+
+

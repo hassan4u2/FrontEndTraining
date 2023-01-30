@@ -1,0 +1,169 @@
+@media all and (max-width: 768px) {
+  /* Home */
+  .home .container .header {
+    width: 100%;
+  }
+  .home .container .header .navbar {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  #home-btn {
+    color: #fff;
+  }
+  .home .container .header .navbar ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  .home .container .header .navbar ul li {
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding: 5px 10px;
+  }
+  .home .container .caption .capelements {
+    text-align: center;
+  }
+  .home .container .caption .capelements h2 {
+    width: 100%;
+  }
+  .home .container .caption .capelements h3 {
+    width: 100%;
+  }
+  .home .container .header .nav-menu {
+    display: flex;
+    font-size: 20px;
+    color: #fff;
+    transition: 1s;
+  }
+  .home .container .header .nav-menu i:hover {
+    color: #20c997;
+    transition: 1s;
+  }
+  .home .container .header:hover > .navbar {
+    display: flex;
+    transition: 1s;
+    transition-delay: .5s;
+  }
+  .home .container .header .navbar {
+    display: none;
+  }
+
+  /* End Home */
+
+  /* About */
+  .about .container .about_body {
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.about .container .about_body .left_contact_info {
+  padding: 2% 0;
+  transition: 1s;
+}
+.about .container .about_foot .about_foot_items .item{
+  flex-basis: 50%;
+}
+.about .container .about_foot .about_foot_items .item:nth-child(-n+3){
+  border-right: none
+
+}
+.about .container .about_foot .about_foot_items .item:nth-child(1){
+  border-right: 1px solid #898989;
+
+}
+
+.about .container .about_foot .about_foot_items .item:nth-child(3){
+  border-right: 1px solid #898989;
+
+}
+  /* End About */
+
+  /* whatido */
+  .whatido .whatido_body .whatido-items .item {
+    width: 100%;
+  }
+  /* End whatido */
+
+  /* Resume */
+  .resume .resume_body .quls {
+    flex-flow: column;
+  }
+
+  .resume .resume_body .resume-skills .skills-items .item {
+    width: 100%;
+    flex-flow: column wrap;
+  }
+  /* End Resume */
+
+  /* Portfolio */
+  .portofolio .container .portofolio_body .port-cards .img-card {
+    width: 100%;
+  }
+  .portofolio .container .portofolio_body .port-cards .gallery-item {
+    width: 100%;
+    transition: 1s;
+  }
+
+  /* End Portfolio */
+
+  /* client */
+
+
+  
+  .client .client_body .slider .slides .overflow .inner .slide1 {
+    width: 100%;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+
+    
+}
+  .client .client_body .slider .slides .overflow .inner .slide1 .slidecard {
+    width: 100%;
+    padding: 25px;
+    margin: 25px;
+    transition: .5s;
+  }
+  
+  /* End client */
+
+  /* Contact */
+  .contact .container .contact_body {
+    flex-flow: column;
+    }  
+    .contact .container .contact_body .contact-data{
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    .contact .container .contact_body .contact-data .social {
+      justify-content: center;
+      align-items: center;
+  }
+  .contact .container .contact_body .contact-form {
+    text-align: center;
+  }
+
+
+  /* End Contact */
+
+  /* Footer */
+
+  /* End Footer */
+}
+
+@media (min-width: 1024px){
+  /* Portfolio */
+  .portofolio .container .portofolio_body .port-cards .img-card {
+    width: 100%;
+  }
+  .portofolio .container .portofolio_body .port-cards .gallery-item {
+    width: 33.33%;
+    transition: 1s;
+  }
+}

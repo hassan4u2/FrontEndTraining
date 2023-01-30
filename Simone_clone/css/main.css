@@ -1,0 +1,83 @@
+/* Global */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+}
+/* end Global */
+
+/* Containers Titles */
+.title_bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+
+}
+.title_bg span {
+  width: 100%;
+  font-size: 8vw;
+  font-weight: 600;
+  opacity: 0.4;
+  color: #dee3e4 ;
+  letter-spacing: 15px;
+}
+
+.title_bg .title_text  {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.title_bg .title_text span {
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+  opacity: 1;
+  letter-spacing: 2px;
+
+  
+}
+.title_bg .title_text p {
+  opacity: .8;
+  border-bottom: 3px solid #20c997;
+  border-radius: 3px;
+  width: 40%;
+
+}
+/* end Containers Titles */
+
+/* Sections Backgrounds */
+#whatido{
+  background-color: #f8f9fa!important;
+}
+#portofolio{
+  background-color: #f8f9fa!important;
+}
+#contact{
+  background-color: #f8f9fa!important;
+}
+/* end Sections Backgrounds */
+
+

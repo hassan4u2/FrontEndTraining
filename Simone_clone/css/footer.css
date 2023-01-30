@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer .copyright{
+    width: 100%;
+}
+.footer .copyright span  {
+    color: #20c997;
+
+}
+.footer .terms{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer .terms a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+    
+}
+
+.footer .terms a:hover{
+    color: #20c997;
+    transition: .5s;
+    
+}

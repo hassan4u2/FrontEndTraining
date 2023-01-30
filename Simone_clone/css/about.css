@@ -1,0 +1,118 @@
+.about {
+    /* background-color: #09c; */
+}
+
+.about .container .about_head {
+    width: 100%;
+    height: 100%;
+    padding: 2% 0;
+}
+
+
+
+
+/* about_body */
+.about .container .about_body {
+    width: 100%;
+    height: 100%;
+    padding: 2% 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.about .container .about_body .right_desc {
+    padding: 1% 0;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60%;
+
+}
+.about .container .about_body .right_desc h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.about .container .about_body .right_desc span {
+    color: #20c997;
+}
+.about .container .about_body .right_desc p {
+    font-size: 15px;
+}
+
+.about .container .about_body .left_contact_info {
+    padding: 1% 0;
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 15px;
+}
+
+.about .container .about_body .left_contact_info ul {
+    list-style: none;
+    padding: 1%;
+}
+
+.about .container .about_body .left_contact_info ul li {
+    font-weight: 600;
+    color: #676767;
+}
+.about .container .about_body .left_contact_info ul li span {
+    color: #969696;
+    font-size: 14px;
+}
+.about .container .about_body .left_contact_info ul li a {
+    text-decoration: none;
+    color:#20c997;
+}
+
+#downloadcv_btn {
+    color: #fff;
+    text-decoration: none;
+    background-color: #20c997;
+    padding: 2% 3%;
+    border-radius: 30px;
+    max-width: 250px;
+    text-align: center;
+}
+
+
+.about .container .about_foot {
+    padding: 2% 0;
+
+}
+.about .container .about_foot .about_foot_items {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.about .container .about_foot .about_foot_items .item{
+    flex-basis: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+
+}
+
+.about .container .about_foot .about_foot_items .item h2{
+    font-size: 30px;
+    color: #676767;
+    text-align: center;
+ 
+}
+.about .container .about_foot .about_foot_items .item p{
+    font-size: 15px;
+    color: #676767;
+    text-align: center;
+}
+.about .container .about_foot .about_foot_items .item:nth-child(-n+3){
+    border-right: 1px solid #898989;
+
+}

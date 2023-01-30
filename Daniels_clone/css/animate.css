@@ -1,0 +1,91 @@
+/* Keyframes */
+@keyframes slideAnimation {
+    0% { transform: translateX(-100%); }
+    60% { transform: translateX(-10%); }
+    60% { transform: translateX(+10%); }
+    100% { transform: translateX(0); }
+  }
+  
+
+
+  #p-home .home-content h1::after {
+    content: "|";
+    animation-name: words;
+    color: white;
+    animation-duration: 8s;
+    font-size: 2rem;
+    animation-iteration-count: infinite;
+  }
+  /* keyframes for words */
+  @keyframes words {
+    /* 
+    I Am Larry Daniels 
+    I Am Developer
+    I Am Designer
+
+      */
+    0% {content: "I|";}
+    1% {content: "I A|";}
+    2% {content: "I Am|";}
+    3% {content: "I Am L|";}
+    4% {content: "I Am La|";}
+    5% {content: "I Am Lar|";}
+    6% {content: "I Am Larr|";}
+    7% {content: "I Am Larry|";}
+    8% {content: "I Am Larry D|";}
+    9% {content: "I Am Larry Da|";}
+    10% {content: "I Am Larry Dan|";}
+    11% {content: "I Am Larry Dani|";}
+    12% {content: "I Am Larry Daniel|";}
+    13% {content: "I Am Larry Daniels|";}
+    30% {content: "I Am Larry Daniel|";}
+    31% {content: "I Am Larry Dani|";}
+    32% {content: "I Am Larry Dan|";}
+    33% {content: "I Am Larry Da|";}
+    34% {content: "I Am Larry D|";}
+    35% {content: "I Am Larry|";}
+    36% {content: "I Am Larr|";}
+    37% {content: "I Am Lar|";}
+    38% {content: "I Am La|";}
+    39% {content: "I Am L|";}
+    40% {content: "I Am|";}
+    41% {content: "I Am |";}
+    42% {content: "I Am D|";}
+    43% {content: "I Am De|";}
+    44% {content: "I Am Dev|";}
+    45% {content: "I Am Deve|";}
+    46% {content: "I Am Devel|";}
+    47% {content: "I Am Develo|";}
+    48% {content: "I Am Develop|";}
+    49% {content: "I Am Develope|";}
+    50% {content: "I Am Developer|";}
+    51% {content: "I Am Developer.|";}
+    65% {content: "I Am Developer|";}
+    66% {content: "I Am Develope|";}
+    67% {content: "I Am Develop|";}
+    68% {content: "I Am Develo|";}
+    69% {content: "I Am Devel|";}
+    70% {content: "I Am Deve|";}
+    71% {content: "I Am Dev|";}
+    72% {content: "I Am De|";}
+    73% {content: "I Am D|";}
+    74% {content: "I Am |";}
+    85% {content: "I Am D|";}
+    86% {content: "I Am De|";}
+    87% {content: "I Am Des|";}
+    88% {content: "I Am Desi|";}
+    89% {content: "I Am Desig|";}
+    90% {content: "I Am Design|";}
+    91% {content: "I Am Designe|";}
+    92% {content: "I Am Designer|";}
+    93% {content: "I Am Designe|";}
+    94% {content: "I Am Desig|";}
+    95% {content: "I Am Desi|";}
+    96% {content: "I Am Des|";}
+    97% {content: "I Am De|";}
+    98% {content: "I Am D|";}
+    99% {content: "I Am |";}
+    100% {content: "I Am|";}
+}
+  /* end Keyframes */
+  

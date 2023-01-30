@@ -1,0 +1,51 @@
+.whatido {
+  width: 100%;
+  padding: 5% 0;
+}
+
+
+.whatido .whatido_body .whatido-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.whatido .whatido_body .whatido-items .item {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+    justify-content: center;
+}
+
+.whatido .whatido_body .whatido-items .item .item_icon {
+    width: 20%;
+    font-size: 30px;
+    text-align: center;
+    color: #20c997;
+    
+}
+.whatido .whatido_body .whatido-items .item .item_icon .item-box{
+}
+
+.whatido .whatido_body .whatido-items .item .item_icon i {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.whatido .whatido_body .whatido-items .item .item_desc {
+    width: 80%;
+    padding: 0 3%;
+
+}
+.whatido .whatido_body .whatido-items .item_desc span {
+    font-size: 20px;
+}
+.whatido .whatido_body .whatido-items .item_desc p {
+    color: #4c4d4d;
+    font-size: 14px;
+}
+

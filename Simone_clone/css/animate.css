@@ -1,0 +1,424 @@
+.home .container .caption .common h2::after {
+  content: "|";
+  animation-name: words;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes words {
+    00.7% {
+      content: "I|";
+    }
+    01.4% {
+      content: "I'|";
+    }
+    02.1% {
+      content: "I'm|";
+    }
+    02.8% {
+      content: "I'm |";
+    }
+    03.5% {
+      content: "I'm S|";
+    }
+    04.2% {
+      content: "I'm Si|";
+    }
+    04.9% {
+      content: "I'm Sim|";
+    }
+    05.6% {
+      content: "I'm Simo|";
+    }
+    06.3% {
+      content: "I'm Simon|";
+    }
+    0007% {
+      content: "I'm Simone|";
+    }
+    07.7% {
+      content: "I'm Simone |";
+    }
+    08.4% {
+      content: "I'm Simone O|";
+    }
+    09.1% {
+      content: "I'm Simone Ol|";
+    }
+    09.8% {
+      content: "I'm Simone Oli|";
+    }
+    10.5% {
+      content: "I'm Simone Oliv|";
+    }
+    11.2% {
+      content: "I'm Simone Olivi|";
+    }
+    11.9% {
+      content: "I'm Simone Olivia|";
+    }
+    12.6% {
+      content: "I'm Simone Olivia.|";
+    }
+    14.0% {
+      content: "I'm Simone Olivia.|";
+    }
+    14.7% {
+      content: "I'm Simone Olivia|";
+    }
+    15.4% {
+      content: "I'm Simone Olivi|";
+    }
+    16.1% {
+      content: "I'm Simone Oliv|";
+    }
+    16.8% {
+      content: "I'm Simone Oli|";
+    }
+    17.5% {
+      content: "I'm Simone Ol|";
+    }
+    18.2% {
+      content: "I'm Simone O|";
+    }
+    18.9% {
+      content: "I'm Simone |";
+    }
+    19.6% {
+      content: "I'm Simone|";
+    }
+    20.3% {
+      content: "I'm Simon|";
+    }
+    21.0% {
+      content: "I'm Simo|";
+    }
+    21.7% {
+      content: "I'm Sim|";
+    }
+    22.4% {
+      content: "I'm Si|";
+    }
+    23.1% {
+      content: "I'm S|";
+    }
+    23.8% {
+      content: "I'm |";
+    }
+    24.5% {
+      content: "I'm|";
+    }
+    25.2% {
+      content: "I'|";
+    }
+    25.9% {
+      content: "I|";
+    }
+    26.6% {
+      content: "|";
+    }
+    27.3% {
+      content: "I|";
+    }
+    28.0% {
+      content: "I'|";
+    }
+    28.7% {
+      content: "I'm|";
+    }
+    29.4% {
+      content: "I'm |";
+    }
+    30.1% {
+      content: "I'm a|";
+    }
+    30.8% {
+      content: "I'm a |";
+    }
+    31.5% {
+      content: "I'm a F|";
+    }
+    32.2% {
+      content: "I'm a Fr|";
+    }
+    32.9% {
+      content: "I'm a Fre|";
+    }
+    33.6% {
+      content: "I'm a Free|";
+    }
+    34.3% {
+      content: "I'm a Freel|";
+    }
+    35.0% {
+      content: "I'm a Freela|";
+    }
+    35.7% {
+      content: "I'm a Freelan|";
+    }
+    36.4% {
+      content: "I'm a Freelanc|";
+    }
+    37.1% {
+      content: "I'm a Freelance|";
+    }
+    37.8% {
+      content: "I'm a Freelancer|";
+    }
+    38.5% {
+      content: "I'm a Freelancer.|";
+    }
+    40.0% {
+      content: "I'm a Freelancer.|";
+    }
+    40.7% {
+      content: "I'm a Freelancer|";
+    }
+    41.4% {
+      content: "I'm a Freelance|";
+    }
+    42.1% {
+      content: "I'm a Freelanc|";
+    }
+    42.8% {
+      content: "I'm a Freelan|";
+    }
+    43.5% {
+      content: "I'm a Freela|";
+    }
+    44.2% {
+      content: "I'm a Freel|";
+    }
+    44.9% {
+      content: "I'm a Free|";
+    }
+    45.6% {
+      content: "I'm a Fre|";
+    }
+    46.3% {
+      content: "I'm a Fr|";
+    }
+    47.0% {
+      content: "I'm a F|";
+    }
+    47.7% {
+      content: "I'm a |";
+    }
+    48.4% {
+      content: "I'm a|";
+    }
+    49.1% {
+      content: "I'm |";
+    }
+    49.8% {
+      content: "I'm|";
+    }
+    50.5% {
+      content: "I'|";
+    }
+    51.2% {
+      content: "I|";
+    }
+    51.9% {
+      content: "|";
+    }
+    52.6% {
+      content: "I|";
+    }
+    53.3% {
+      content: "I'|";
+    }
+    54.0% {
+      content: "I'm|";
+    }
+    54.7% {
+      content: "I'm |";
+    }
+    55.4% {
+      content: "I'm a|";
+    }
+    56.1% {
+      content: "I'm a |";
+    }
+    56.8% {
+      content: "I'm a P|";
+    }
+    57.5% {
+      content: "I'm a Ph|";
+    }
+    58.2% {
+      content: "I'm a Pho|";
+    }
+    58.9% {
+      content: "I'm a Phot|";
+    }
+    59.6% {
+      content: "I'm a Photo|";
+    }
+    60.3% {
+      content: "I'm a Photog|";
+    }
+    61.0% {
+      content: "I'm a Photogr|";
+    }
+    61.7% {
+      content: "I'm a Photogra|";
+    }
+    62.4% {
+      content: "I'm a Photograp|";
+    }
+    63.1% {
+      content: "I'm a Photograph|";
+    }
+    63.8% {
+      content: "I'm a Photographe|";
+    }
+    64.5% {
+      content: "I'm a Photographer|";
+    }
+    65.2% {
+      content: "I'm a Photographer.|";
+    }
+    66.7% {
+      content: "I'm a Photographer.|";
+    }
+    67.4% {
+      content: "I'm a Photographer|";
+    }
+    68.1% {
+      content: "I'm a Photographe|";
+    }
+    68.8% {
+      content: "I'm a Photograph|";
+    }
+    69.5% {
+      content: "I'm a Photograp|";
+    }
+    70.2% {
+      content: "I'm a Photogra|";
+    }
+    70.9% {
+      content: "I'm a Photogr|";
+    }
+    71.6% {
+      content: "I'm a Photog|";
+    }
+    72.3% {
+      content: "I'm a Photo|";
+    }
+    73.0% {
+      content: "I'm a Phot|";
+    }
+    73.7% {
+      content: "I'm a Pho|";
+    }
+    74.4% {
+      content: "I'm a Ph|";
+    }
+    75.1% {
+      content: "I'm a P|";
+    }
+    75.8% {
+      content: "I'm a |";
+    }
+    76.5% {
+      content: "I'm a|";
+    }
+    77.2% {
+      content: "I'm |";
+    }
+    77.9% {
+      content: "I'm|";
+    }
+    78.6% {
+      content: "I'|";
+    }
+    79.3% {
+      content: "I|";
+    }
+    80.0% {
+      content: "|";
+    }
+    80.7% {
+      content: "I|";
+    }
+    81.4% {
+      content: "I'|";
+    }
+    82.1% {
+      content: "I'm|";
+    }
+    82.8% {
+      content: "I'm |";
+    }
+    83.5% {
+      content: "I'm a|";
+    }
+    84.2% {
+      content: "I'm a |";
+    }
+    84.9% {
+      content: "I'm a D|";
+    }
+    85.6% {
+      content: "I'm a De|";
+    }
+    86.3% {
+      content: "I'm a Des|";
+    }
+    87.0% {
+      content: "I'm a Desi|";
+    }
+    87.7% {
+      content: "I'm a Desig|";
+    }
+    88.4% {
+      content: "I'm a Design|";
+    }
+    89.1% {
+      content: "I'm a Designe|";
+    }
+    89.8% {
+      content: "I'm a Designer|";
+    }
+    90.5% {
+      content: "I'm a Designer.|";
+    }
+    92.0% {
+      content: "I'm a Designer.|";
+    }
+    92.7% {
+      content: "I'm a Designer|";
+    }
+    93.4% {
+      content: "I'm a Designe|";
+    }
+    94.1% {
+      content: "I'm a Design|";
+    }
+    94.8% {
+      content: "I'm a Desig|";
+    }
+    95.5% {
+      content: "I'm a Desi|";
+    }
+    96.2% {
+      content: "I'm a Des|";
+    }
+    96.9% {
+      content: "I'm a De|";
+    }
+    97.6% {
+      content: "I'm a D|";
+    }
+    98.3% {
+      content: "I'm a |";
+    }
+    99.0% {
+      content: "I'm a|";
+    }
+    99.7% {
+      content: "I'm ";
+    }
+  }
+  

@@ -1,0 +1,120 @@
+.contact .container .contact_body {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 3% 0;
+    
+}
+
+.contact .container .contact_body .contact-data {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 45%;
+    align-items: flex-start;
+}
+.contact .container .contact_body .contact-data h2 {
+    padding: 20px 0;
+    font-size: 18px;
+}
+.contact .container .contact_body .contact-data ul{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    list-style: none;
+}
+.contact .container .contact_body .contact-data ul li {
+    width: 100%;
+    padding: 10px 0;
+}
+.contact .container .contact_body .contact-data ul li i {
+    color: #20c997;
+    padding-right: 10px;
+
+}
+.contact .container .contact_body .contact-data ul li span {
+
+}
+
+
+.contact .container .contact_body .contact-data .social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact .container .contact_body .contact-data .social .social-item {
+    padding-right:10px;
+}
+
+.contact .container .contact_body .contact-data .social .social-item i {
+    
+}
+
+.contact .container .contact_body .contact-data .social .social-item a {
+  text-decoration: none;
+  color: #20c997;
+  padding-right: 10px;
+}
+
+.contact .container .contact_body .contact-form {
+    width: 100%;
+}
+.contact .container .contact_body .contact-form h2 {
+    padding: 20px 0;
+}
+
+.contact .container .contact_body .contact-form form {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.contact .container .contact_body .contact-form form .form-data{
+    padding: 10px;
+}
+.contact .container .contact_body .contact-form form .form-data input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #898989;
+    border-radius: 2px;
+}
+.contact .container .contact_body .contact-form form .form-data input[type="text"]::placeholder ,
+.contact .container .contact_body .contact-form form .form-data textarea::placeholder {
+    padding: 10px;
+    font-size: 15px;
+  }
+.contact .container .contact_body .contact-form form .form-data textarea{
+    border: 1px solid #898989;
+    border-radius: 2px;
+    width: 100%;
+    height: 150px;
+}
+.contact .container .contact_body .contact-form form .form-data:nth-child(-n+2) {
+    width: 50%;
+    height: 50px;
+}
+.contact .container .contact_body .contact-form form .form-data:nth-child(n+3) {
+    width: 100%;
+}
+
+.contact .container .contact_body .contact-form form .form-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+
+}
+.contact .container .contact_body .contact-form form .form-btn button {
+    padding: 10px 25px;
+    background-color: #20c997;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.contact .container .contact_body .contact-form form .form-btn button:hover {
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .2);
+    transition: .5s;
+}
