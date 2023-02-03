@@ -95,17 +95,21 @@ function addProduct() {
     if (isNaN(product.price) || isNaN(product.qty) || product.price < 0 || product.qty < 0 || product.price === '' || product.qty === '') {
         valid = false;
         error_msg += '* Enter a valid price and quantity.<br>';
+        console.log('price or qty is not valid');
     }
     // check len of name and desc and category
     if (product.name.length < 5 || product.desc.length < 5 || product.category.length < 5) {
         valid = false;
         error_msg += '* Enter a valid name, description and category.<br>';
+        console.log('name or desc or category is not valid');
     }
     // check if product already exists
     for (let i = 0; i < productsList.length; i++) {
         if (productsList[i].name === product.name) {
             valid = false;
             error_msg += '* Product already exists.<br>';
+            console.log('product already exists');
+
             break;
         }
     }
@@ -114,6 +118,7 @@ function addProduct() {
         if (product[key] === '') {
             valid = false;
             error_msg += `* Dont leave any field empty.<br>`;
+            console.log('empty field');
             break;
         } else {
             valid = true;
@@ -133,8 +138,6 @@ function addProduct() {
             document.getElementById('alert-info').style.display = 'none';
         }
             , 10000);
-
-
     } else {
         // show alert
         document.getElementById('alert-info').style.display = 'block';
