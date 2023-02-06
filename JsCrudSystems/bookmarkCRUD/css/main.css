@@ -1,0 +1,11 @@
+/* set font family */
+body {
+    font-family:
+        "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.input-group-text {
+    height: calc(2.25rem + 2px) !important;
+    width: 3rem !important;
+}
