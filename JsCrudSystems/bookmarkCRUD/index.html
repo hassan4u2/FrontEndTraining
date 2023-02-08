@@ -16,18 +16,19 @@
 
 
 <body>
-    <!-- add new title-->
 
     <div class="container mt-5 w-75 mx-auto">
-        <h1 class="text-center mb-3">Bookmarks App</h1>
+        <!-- Title -->
+        <h1 class="text-center mb-3">Bookmarks</h1>
         <!-- Add Bookmark Form -->
-        <div class="card mb-3">
+        <div class="card mb-3" id="inputsForm">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h5 class="card-title">
-                    <i class="fas fa-bookmark p-2"></i>
+                    <i class="fas fa-star p-2"></i>
                     Add Bookmark
                 </h5>
             </div>
+            <!-- Inputs -->
             <div class="card-body p-3">
                 <div class="form-group mb-3 d-flex align-items-center">
 
@@ -40,69 +41,71 @@
                         placeholder="Enter Bookmark Name">
                 </div>
                 <div class="form-group mb-3 d-flex align-items-center">
-
                     <label for="bookmarkUrl">
                         <div class="input-group-text bg-primary text-white rounded-end-0 d-flex justify-content-center">
                             <i class="fas fa-link"></i>
                         </div>
                     </label>
-                    <input type="text" class="form-control rounded-start-0" id="bookmarkUrl"
+                    <input type="url" class="form-control rounded-start-0" id="bookmarkUrl"
                         placeholder="Enter Bookmark URL">
                 </div>
-                <button class="btn btn-primary mt-3" id="addfav-btn">
-                    <i class="fas fa-plus me-2"></i>
-                    Add Bookmark
-                </button>
+                <div class="form-group mb-3 d-flex align-items-center">
+                    <label for="bookmarkTag">
+                        <div class="input-group-text bg-primary text-white rounded-end-0 d-flex justify-content-center">
+                            <i class="fas fa-tags"></i>
+                        </div>
+                    </label>
+                    <input type="text" class="form-control rounded-start-0" id="bookmarkTag"
+                        placeholder="Enter Bookmark Tag">
+                </div>
+                <!-- Alerts (d-block classedit spanid) -->
+                <div id="alertMsg">
+
+
+
+                </div>
+                <!-- Buttons -->
+                <div class="btns-grp d-flex justify-content-start">
+                    <button class=" btn btn-primary mt-3 mx-2" id="addBookmarkBtn" onclick="addBookmark()">
+                        <i class="fas fa-plus m-auto"></i>
+                        <span>Add</span>
+                    </button>
+                    <button class="btn btn-success mt-3 mx-2" style="display: none;" id="saveupBtn"
+                        onclick="saveUpdate()">
+                        <i class="fas fa-save m-auto"></i>
+                        <span>Save</span>
+                    </button>
+                    <button class="btn btn-danger mt-3 mx-2" style="display: none;" id="cancelupBtn"
+                        onclick="cancelUpdate()">
+                        <i class="fas fa-cancel m-auto"></i>
+                        <span>Cancel</span>
+                    </button>
+                </div>
             </div>
         </div>
-
-
-
-
+        <!-------------------------------------------------------------------------------------------------------------->
         <!-- Bookmark List -->
         <div class="card p-3">
+            <!-- Title -->
             <div class="card-header d-flex justify-content-between align-items-center">
-                <h5 class="card-title mb-0">
-                    <i class="fas fa-star me-2"></i>
-                    Bookmarks
+                <h5 class="card-title">
+                    <i class="fas fa-bookmark m-auto"></i>
+                    <span class="ms-1">Bookmarks</span>
                 </h5>
-            </div>
-            <ul class="card-body p-3">
-                <li class="card mb-3">
-                    <div class="card-header d-flex justify-content-between align-items-center">
-                        <h4 class="card-title mb-0">
-                            <i class="fas fa-bookmark me-2"></i>
-                            Bookmark 1
-                        </h4>
-                        <div class="d-flex">
-                            <a href="#" class="btn btn-primary me-2">
-                                <i class="fas fa-edit me-2"></i>
-                                Edit
-                            </a>
-                            <a href="#" class="btn btn-danger">
-                                <i class="fas fa-trash-alt me-2"></i>
-                                Delete
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-body p-3">
-                        <p class="card-text mb-0">
-                            <i class="fas fa-link me-2"></i>
-                            https://www.bookmark1.com
-                        </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                        <a href="#" class="btn btn-primary btn-block">
-                            <i class="fas fa-eye me-2"></i>
-                            View
-                        </a>
-                    </div>
-                </li>
 
+            </div>
+            <div id="alertMsg2" class="d-flex align-content-center justify-content-center pt-2">
+
+
+
+            </div>
+            <!-- Bookmark Items List -->
+
+            <ul class="card-body p-3" id="bookmarksList">
+                <!-- Bookmark Item Here -->
 
             </ul>
         </div>
-
     </div><!-- ./container -->
 
     <!-- Bootstrap 5 JS -->
