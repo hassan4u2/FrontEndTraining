@@ -1,7 +1,7 @@
 # Local Storage Product Manager
 
-This code implements a product manager that stores products in local storage using JavaScript. The code is designed to work with a webpage and interacts with the local storage using the JavaScript localStorage object.
-
+- This code implements a product manager that stores products in local storage using JavaScript. The code is designed to work with a webpage and interacts with the local storage using the JavaScript localStorage object.
+- https://hassan4u2.github.io/FrontEndTraining/JsCrudSystems/bookmarkCRUD/
 ## Features
 
 - Fill default product data in local storage if it's empty
@@ -38,6 +38,3 @@ A browser with JavaScript enabled
 - `displayProducts()`: Display products on the page
 - `clearForm()`: Clear form fields after adding a product
 
-## Contributions
-
-Contributions to this code are welcome. If you find any bug or want to add a new feature, please create a pull request.
