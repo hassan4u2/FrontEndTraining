@@ -38,6 +38,3 @@ A browser with JavaScript enabled
 - `displayProducts()`: Display products on the page
 - `clearForm()`: Clear form fields after adding a product
 
-## Contributions
-
-Contributions to this code are welcome. If you find any bug or want to add a new feature, please create a pull request.
