@@ -1,0 +1,49 @@
+/* reset */
+body {
+    background: linear-gradient(-45deg, #5cdbd3, #6488e7, #8e7ddb, #e77c5c);
+    background-size: 400% 400%;
+    animation: gradient 4s ease-in-out infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.overlayBox {
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+
+/* .reset */
+
+.smooth-items {
+    transition: all 2s ease-in-out;
+
+}
+
+.scale-img:hover {
+    transform: scale(1.4);
+    transition: all .8s ease-in-out;
+}
+
+
+.prepare-header {
+    position: relative;
+    top: -100%;
+}
+
+.smooth-header {
+    position: relative;
+    top: 0%;
+    transition: all 2s ease-in-out;
+}
