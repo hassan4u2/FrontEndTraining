@@ -1,6 +1,6 @@
 # Bookmark Manager
 
-A web application for managing bookmarks.
+A web application for managing bookmarks in localstorage.
   * https://hassan4u2.github.io/FrontEndTraining/JsCrudSystems/bookmarkCRUD/
 
 ## Table of Contents
