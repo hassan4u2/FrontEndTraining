@@ -112,25 +112,62 @@ const generateHTML = async (itemsCount) => {
             let imgBox = document.getElementById("overlayBox").querySelector("img");
             let imgIndex = allImagesUrls.indexOf(e.target.src);
             imgBox.src = allImagesUrls[imgIndex];
+            // exitBtn event function 
+            const exitBtnEvent = () => {
+                overlayBox.classList.replace("d-flex", "d-none");
+            };
+            // hide imageBox event when click escape
+            document.addEventListener("keydown", (e) => {
+                if (e.key === "Escape") {
+                    exitBtnEvent();
+                }
+            });
+            // hide imageBox event when click outside
+            document.addEventListener("click", (e) => {
+                // Stop propagation
+                if (e.target.id === "overlayBox") { exitBtnEvent(); }
+            });
             // exitBtn event
             exitBtn.addEventListener("click", () => {
-                overlayBox.classList.replace("d-flex", "d-none");
+                exitBtnEvent();
             });
-            // rightBtn event
-            rightBtn.addEventListener("click", () => {
+
+            // rightBtn event function
+            const rightBtnEvent = () => {
                 imgIndex--;
                 if (imgIndex < 0) {
                     imgIndex = allImagesUrls.length - 1;
                 }
                 imgBox.src = allImagesUrls[imgIndex];
+            };
+            // rightBtn event
+            rightBtn.addEventListener("click", () => {
+                rightBtnEvent();
             });
-            // leftBtn event
-            leftBtn.addEventListener("click", () => {
+            // rightBtn event when click arrow left
+            document.addEventListener("keydown", (e) => {
+                if (e.key === "ArrowLeft") {
+                    rightBtnEvent();
+                }
+            });
+
+            // leftBtn event function
+            const leftBtnEvent = () => {
                 imgIndex++;
                 if (imgIndex > allImagesUrls.length - 1) {
                     imgIndex = 0;
                 }
                 imgBox.src = allImagesUrls[imgIndex];
+            };
+            // leftBtn event
+            leftBtn.addEventListener("click", () => {
+                leftBtnEvent();
+            });
+            // leftBtn event when click arrow right
+            document.addEventListener("keydown", (e) => {
+                if (e.key === "ArrowRight") {
+                    leftBtnEvent();
+                }
             });
         });
     });
@@ -146,6 +183,7 @@ const init = async (itemsCount) => {
 
 };
 
-let itemsCount = 20;
+let itemsCount = 10;
 init(itemsCount);
+
 /////////////////////////////////////////////
