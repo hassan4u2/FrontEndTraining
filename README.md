@@ -19,3 +19,8 @@
    - **Bookmark CRUD** (ADD & READ & UPDATE & DEL)
      - README.md : https://github.com/hassan4u2/FrontEndTraining/blob/main/JsCrudSystems/bookmarkCRUD/Readme.md
      - LivePage : https://hassan4u2.github.io/FrontEndTraining/JsCrudSystems/bookmarkCRUD/
+
+## **Js Dom Projects:**
+   - **PhotoGallery** (ADD & READ & UPDATE & DEL & REALTIME-SEARCH)
+     - README.md : https://github.com/hassan4u2/FrontEndTraining/tree/main/JsDomPhotoGallery/Readme.md
+     - LivePage : https://hassan4u2.github.io/FrontEndTraining/JsDomPhotoGallery/
