@@ -3,29 +3,26 @@
  *  - Login
  *  - Register
  *  - Logout
- */
-/** map - filter - find */
+ *  map - filter - find 
+ * validate register data
+let data = {
+    name: 'John',
+    email: 'hassan@gmail.com',
+    passwd: 'hassan',
+    passwd2: 'hassan'
+}
+let data2 = {
+    email: 'hassan@gmail.com',
+    passwd: 'hassan',
+}
+
+* */
+
+
 // GLOBAL VARIABLES
 let usersList = [];
 let loggedIn = false;
 let loggedUser = {};
-// validate register data
-// let data = {
-//     name: 'John',
-//     email: 'hassan@gmail.com',
-//     passwd: 'hassan',
-//     passwd2: 'hassan'
-// }
-// let data2 = {
-//     email: 'hassan@gmail.com',
-//     passwd: 'hassan',
-// }
-
-/**
- * 
- * 
- */
-
 
 // prepare Local Storage
 const prepareLocalStorage = () => {
@@ -85,9 +82,20 @@ const registerUser = (data) => {
         localStorage.setItem('usersList', JSON.stringify(usersList));
         // return success
         console.log('User registered');
+        // show login form
+        document.getElementById('login_section').classList.remove('d-none');
+        document.getElementById('register_section').classList.add('d-none');
     } else {
         // return errors
         console.log(validate);
+        // show errors
+        document.getElementById('registerAlertBox').classList.remove('d-none');
+        let innerErrors = ``;
+        for (let i = 0; i < validate.length; i++) {
+            innerErrors += `<p>${validate[i]}</p>`
+        }
+        innerErrors += `<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>`
+        document.getElementById('registerAlert').innerHTML = innerErrors;
     }
 };
 
@@ -107,7 +115,8 @@ const validateLoginData = (data) => {
         localStorage.setItem('LSloggedUser', JSON.stringify(user));
         return true;
     } else {
-        errors.push('User not found');
+        if (data.email !== '' && data.passwd !== '')
+            errors.push('Bad Username or Password');
         return errors;
     }
 };
@@ -123,7 +132,13 @@ const loginUser = (data) => {
         localStorage.setItem('LSloggedIn', JSON.stringify(false));
         console.log(validate);
         //  show errors
-
+        document.getElementById('loginAlertBox').classList.remove('d-none');
+        let innerErrors = ``;
+        for (let i = 0; i < validate.length; i++) {
+            innerErrors += `<p>${validate[i]}</p>`
+        }
+        innerErrors += `<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>`
+        document.getElementById('loginAlert').innerHTML = innerErrors;
     }
 };
 
