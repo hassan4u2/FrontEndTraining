@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System (LocalStorage)</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid vh-100 p-0 main_background">
+        <!-- Header Section -->
+        <section class="header_section">
+            <nav class="nav_section">
+                <div class="navbar navbar-expand-lg bg-body-tertiary px_10 py-3 d-flex justify-content-between">
+                    <!-- Nav Brand -->
+                    <a class="navbar-brand" href="#register_section">Login System</a>
+                    <!-- ./Nav Brand -->
+                    <!-- Nav Links -->
+                    <div class="dropBtn dropdown d-none">
+                        <button class="btn btn-secondary dropdown-toggle me-5 " type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Profile
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="logOutBtnCls dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- ./Nav Links -->
+                </div>
+            </nav>
+        </section>
+        <!-- ./Header Section  -->
+
+        <!-- Login Section -->
+        <section class="login_section text-truncate d-none" id="login_section">
+            <div class="d-flex justify-content-center h-100 align-items-center py_10">
+                <div class="form_box col-11 col-md-8 col-lg-6 rounded-4 p-4">
+                    <!-- Login Form -->
+                    <div class="login_form">
+                        <h2 class="text-center mb-3">Login</h2>
+                        <label for="log_user_email" class="py-1">Email</label>
+                        <input type="email" name="log_user_email" id="log_user_email" class="form-control mb-3"
+                            placeholder="Enter Email">
+                        <label for="log_user_passwd" class="py-1">Password</label>
+                        <input type="password" name="log_user_passwd" id="log_user_passwd" class="form-control mb-3"
+                            placeholder="Enter Password">
+                        <button class="btn btn-primary w-100 fw-bolder" id="MainLloginBtn">Login</button>
+                    </div>
+                    <!-- ./Login Form -->
+                    <div class="login_alert d-none">
+                        <div class="alert alert-danger alert-dismissible fade show my-3" role="alert">
+                            <strong>Invalid</strong> <span>: check your email and password.</span>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="register_link py-3">
+                        <p>Don't have an account? <a id="signupPageBtn"
+                                class="btn btn-sm btn-outline-primary text-decoration-none fw-bold" href="#">SignUp</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Login Section -->
+
+        <!-- Register Section -->
+        <section class="register_section text-truncate d-none" id="register_section">
+            <div class="d-flex justify-content-center h-100 align-items-center py_10">
+                <div class="form_box col-11 col-md-8 col-lg-6 rounded-4 p-4">
+                    <!-- Register Form -->
+                    <div class="login_form">
+                        <h2 class="text-center mb-3">Register</h2>
+                        <label for="reg_user_name" class="py-1">Name</label>
+                        <input type="text" name="reg_user_name" id="reg_user_name" class="form-control mb-3"
+                            placeholder="Enter Name">
+                        <label for="reg_user_email" class="py-1">Email</label>
+                        <input type="email" name="reg_user_email" id="reg_user_email" class="form-control mb-3"
+                            placeholder="Enter Email">
+                        <label for="reg_user_passwd" class="py-1">Password</label>
+                        <input type="password" name="reg_user_passwd" id="reg_user_passwd" class="form-control mb-3"
+                            placeholder="Enter Password">
+                        <input type="password" name="reg_user_passwd_confirm" id="reg_user_passwd_confirm"
+                            class="form-control mb-3" placeholder="Confirm Your Password">
+
+                        <button class="btn btn-primary w-100 fw-bolder" id="mainRegisterBtn">Sign Up</button>
+                    </div>
+                    <div class="register_alert d-none">
+                        <div class="alert alert-danger alert-dismissible fade show my-3" role="alert">
+                            <strong>Invalid</strong>
+                            <span>: check your email and password.</span>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="login_link py-3">
+                        <p>Aleady have an account? <a id="loginPageBtn"
+                                class="btn btn-sm btn-outline-primary text-decoration-none fw-bold" href="#">Login</a>
+                        </p>
+                    </div>
+
+                    <!-- ./Register Form -->
+                </div>
+            </div>
+        </section>
+        <!-- ./Register Section -->
+
+        <!-- User Profile Section -->
+        <section class="user_profile_section d-flex justify-content-center mt-5 d-none" id="user_profile_section">
+            <div class="w-50 form_box rounded-4 p-4">
+                <div class="user_profile_box">
+                    <div class="user_profile_info d-flex align-items-center flex-column">
+                        <h4 id="userProfileName"></h4>
+                        <h5 id="userProfileEmail"></h5>
+                        <a href="#" class="logOutBtnCls btn btn-sm btn-outline-danger m-2">Logout</a>
+                    </div>
+                </div>
+        </section>
+        <!-- ./User Profile Section -->
+
+        <!-- Footer Section -->
+        <section class="footer_section fixed-bottom text-truncate">
+            <div class="footer_box py-3">
+                <p class="text-center">&copy; All Rights Reserved 2023</p>
+            </div>
+        </section>
+        <!-- ./Footer Section -->
+    </div>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+/*
+RESET
+*/
+
+.main_background {
+    background: url(../imgs/main_bg.jpg) no-repeat center center fixed;
+}
+
+.py_10 {
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.px_10 {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+
+.form_box {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.footer_section {
+    background: rgba(255, 255, 255, 0.7);
+}
