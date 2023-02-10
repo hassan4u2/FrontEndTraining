@@ -1,6 +1,6 @@
 # JS LoginSystem (LocalStorage)
 
-This is a website application with user registration and login functionalities. The application uses local storage to store the user data and maintain the user session. The following are the main functions of the application:
+- This is a website application with user registration and login functionalities. The application uses local storage to store the user data and maintain the user session. The following are the main functions of the application:
 
 ## Global Variables
 - `usersList`: an array to store the list of registered users
@@ -52,3 +52,6 @@ This is a website application with user registration and login functionalities. 
 - The function `checkLoggedIn()` is used to check if the user is logged in.
 - If the `localStorage.getItem('LSloggedIn')` is null, the `localStorage` item for `LSloggedIn` is set to `false` and the `loggedUser` is set to an empty object using `JSON.stringify({})`. 
 - If `localStorage.getItem('LSloggedIn')` is not null, the value of `loggedIn` is set to the parsed value of `localStorage.getItem('LSloggedIn')` and `loggedUser` is set to the parsed value of `localStorage.getItem('LSloggedUser')`. 
+
+
+
