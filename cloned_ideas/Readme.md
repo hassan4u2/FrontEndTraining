@@ -1,9 +1,12 @@
 # 50 MiniProjects in 100 Days - HTML/CSS and JavaScript
 
-This repository contains 50 mini projects built using HTML, CSS, and JavaScript. The projects are based on the original 50 projects in 50 days course 
+This repository contains 50 mini projects built using HTML, CSS, and JavaScript. These projects are a part of my training in web development and are based on the original 50 projects in 50 days course by Brad Traversy. However, I have extended the timeline to 100 days to give myself more time to work on each project.
+
+
+
 
 ## Orignal Repo
-- https://github.com/bradtraversy/50projects50days
+https://github.com/bradtraversy/50projects50days
 
 
 ## Project List
