@@ -3,19 +3,8 @@
 
 This repository contains 50 mini projects built using HTML, CSS, and JavaScript. These projects are a part of my training in web development and are based on the original 50 projects in 50 days course by Brad Traversy. However, I have extended the timeline to 100 days to give myself more time to work on each project.
 
-
-
-<<<<<<< Updated upstream
-
 ## Orignal Repo
 https://github.com/bradtraversy/50projects50days
-
-=======
->>>>>>> cd4afd19ff236fc81cd1e2581eb1718efa3f6745
-
-## Orignal Repo
-https://github.com/bradtraversy/50projects50days
->>>>>>> Stashed changes
 
 ## Project List
 The following is a list of all the projects included in this repository:
