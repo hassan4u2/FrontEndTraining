@@ -12,7 +12,7 @@
 ## **Cloned HTML-CSS-JS (50IDEA):**
   - **50IDEA clone** (HTML & CSS & JS)
       - SRC : https://github.com/hassan4u2/FrontEndTraining/tree/main/cloned_ideas
-     - README : https://github.com/hassan4u2/FrontEndTraining/tree/main/cloned_ideas/README.md
+     - README : https://github.com/hassan4u2/FrontEndTraining/tree/main/cloned_ideas/Readme.md
 
 
 ## **JS Crud Systems (LocalStorage):**
