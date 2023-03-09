@@ -35,3 +35,8 @@
    - **LoginSystem** (LocalStorage)
      - README.md : https://github.com/hassan4u2/FrontEndTraining/tree/main/JsLoginSystem#readme
      - LivePage : https://hassan4u2.github.io/FrontEndTraining/JsLoginSystem/
+
+## **Js Weather App:**
+   - **JsWeatherApp** 
+     - README.md : https://github.com/hassan4u2/FrontEndTraining/tree/main/jsFullWeatherApp#readme
+     - LivePage : https://hassan4u2.github.io/FrontEndTraining/jsFullWeatherApp/
