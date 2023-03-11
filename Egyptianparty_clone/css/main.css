@@ -1,0 +1,28 @@
+nav .event-links {
+    list-style: none;
+
+}
+
+nav .event-links a {
+    text-decoration: none;
+}
+
+header .event-welcome .event-bg {
+    background-image: url('../imgs/bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+header .event-welcome .event-overlay {
+    min-height: 400px;
+    max-height: 400px;
+}
+
+header .event-welcome .over-bg {
+    background-color: rgba(255, 59, 59, 0.3);
+    min-height: 400px;
+    max-height: 400px;
+}

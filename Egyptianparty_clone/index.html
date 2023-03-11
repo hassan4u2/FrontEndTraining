@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App (Api)</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+
+    <nav class="event-sidebar bg-dark w-25 h-100 fixed-top" id="event-sidebar">
+        <div class="event-sidebar-header d-flex justify-content-end pe-3 pt-3">
+            <a class="event-sidebar-close-btn fs-3 text-light" id="event-sidebar-close-btn">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+        <ul class="event-links">
+            <li>
+                <a href="#event-show" class="text-light">Home</a>
+            </li>
+            <li>
+                <a href="#event-singers" class="text-light">Details</a>
+            </li>
+            <li>
+                <a href="#event-counter" class="text-light">Duration</a>
+            </li>
+            <li>
+                <a href="#event-contactus" class="text-light">Contact Us</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <header class="event-show" id="event-show">
+        <div class="event-welcome position-relative">
+            <div class="event-bg">
+                <div class="over-bg h-100 w-100"></div>
+            </div>
+            <div class="event-overlay d-flex flex-column justify-content-center position-absolute top-0 w-100">
+                <h1 class="event-title text-center text-light">Egyptian Party</h1>
+                <h6 class="event-title text-center text-light">Let's have Fun</h6>
+                <div class="event-btns text-center pt-2">
+                    <a href="#event-singers" class="btn btn-outline-light">Details</a>
+                    <a href="#event-counter" class="btn btn-outline-light">Duration</a>
+                    <a href="#event-contactus" class="btn btn-outline-light">Contact Us</a>
+                </div>
+                <div class="event-sidebar-btn position-absolute top-50 ps-3">
+                    <a class="event-sidebar-open-btn btn btn-outline-light text-decoration-none p-2"
+                        id="event-sidebar-open-btn">
+                        <i class="fas fa-bars"></i> Open
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="event-singers" id="event-singers">
+
+    </section>
+    <section class="event-counter" id="event-counter">
+
+    </section>
+    <footer class="event-contactus" id="event-contactus">
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
