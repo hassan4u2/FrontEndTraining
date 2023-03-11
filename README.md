@@ -9,10 +9,12 @@
 
    - **Daniels clone** (HTML & CSS & Bootstrap5)
      - https://hassan4u2.github.io/FrontEndTraining/Daniels_clone/
+     
+     
 ## **Cloned HTML-CSS-JS (50IDEA):**
   - **50IDEA clone** (HTML & CSS & JS)
-      - SRC : https://github.com/hassan4u2/FrontEndTraining/tree/main/cloned_ideas
-     - README : https://github.com/hassan4u2/FrontEndTraining/tree/main/cloned_ideas/Readme.md
+      - SRC : ...
+     - README : ...
 
 
 ## **JS Crud Systems (LocalStorage):**
